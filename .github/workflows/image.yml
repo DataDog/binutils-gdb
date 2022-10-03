@@ -6,7 +6,7 @@ on:
       binutilsVersion:
         description: 'binutils-gdb version'     
         required: true
-        default: '2.37'
+        default: '2.38'
 
 env:
   REGISTRY: ghcr.io
