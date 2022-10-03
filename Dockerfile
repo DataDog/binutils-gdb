@@ -1,8 +1,8 @@
 FROM debian as build
 
-RUN apt update && apt install -y curl gcc g++ make
+RUN apt update && apt install -y curl gcc g++ make texinfo
 
-ARG VERSION=2.37
+ARG VERSION=2.38
 ENV srcdir=/usr/local/src/binutils-$VERSION
 ENV installdir=/usr/local/
 
